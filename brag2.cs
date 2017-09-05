@@ -31,7 +31,12 @@ public class brag2 : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHan
     // Update is called once per frame
     void Update()
     {
+
     }
+
+    public void OnDrag(PointerEventData eventData)//拖拽过程中  
+    {
+        // transform.position = canvasCamera.ScreenToWorldPoint(Input.mousePosition);//鼠标左键按住拖拽的时候，物体跟着鼠标移动  
         //transform.position = Input.mousePosition;//鼠标左键按住拖拽物体的时候不显示物体  
 
     }
